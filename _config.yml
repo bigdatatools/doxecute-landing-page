@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://http://doxecute.herokuapp.com/
+title: Doxecute 
+subtitle: A document based database with Scala script support. 
+author: Big Data Tools
 simple_search: http://google.com/search
 description:
 

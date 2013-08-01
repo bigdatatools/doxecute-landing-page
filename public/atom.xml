@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2013-08-01T16:30:14-07:00</updated>
-  <id>http://yoursite.com/</id>
+  <title><![CDATA[Doxecute]]></title>
+  <link href="http://http://doxecute.herokuapp.com//atom.xml" rel="self"/>
+  <link href="http://http://doxecute.herokuapp.com//"/>
+  <updated>2013-08-01T16:37:57-07:00</updated>
+  <id>http://http://doxecute.herokuapp.com//</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Big Data Tools]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
