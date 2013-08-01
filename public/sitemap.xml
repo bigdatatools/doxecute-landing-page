@@ -5,8 +5,12 @@
         <lastmod>2013-08-01T15:16:54-07:00</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/</loc>
+        <loc>http://yoursite.com/blog/</loc>
         <lastmod>2013-08-01T15:16:54-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://yoursite.com/</loc>
+        <lastmod>2013-08-01T16:19:20-07:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/robots.txt</loc>
