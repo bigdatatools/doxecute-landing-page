@@ -14,19 +14,19 @@ You can deploy and start Doxecute server in your EC2 node running Linux by runni
 Unzip the tarball
 -----------------
 {% codeblock %}
-tester@bigdatatools:~$ tar xvfz doxecute-1.0.tar.gz
-tester@bigdatatools:~$ cd doxecute-1.0
-tester@bigdatatools:~$ 
+tester@bigdatatools$ tar xvfz doxecute-1.0.tar.gz
+tester@bigdatatools$ cd doxecute-1.0
+tester@bigdatatools$ 
 {% endcodeblock %}
 
 Deploy Doxecute on EC2
 ----------------------
 Run deploy-ec2.sh to deploy Doxecute on your EC2 node. 
 {% codeblock %}
-tester@bigdatatools:~$ ./deploy-ec2.sh -node ec2-123-123-123-123.compute-1.amazonaws.com
+tester@bigdatatools$ ./deploy-ec2.sh -node ec2-123-123-123-123.compute-1.amazonaws.com
 Doxecute version 1.0 deployed on ec2-123-123-123-123.compute-1.amazonaws.com.
 
-tester@bigdatatools:~$
+tester@bigdatatools$
 {% endcodeblock %}
 
 Run an interactive shell, Doxi
@@ -34,7 +34,7 @@ Run an interactive shell, Doxi
 Simply run Doxi, an interactive shell for communicating with Doxecute. 
 You don't need to specify the address of your EC2 node, as it is stored in config.yml in doxecute-1.0.
 {% codeblock %}
-tester@bigdatatools:~$ ./doxi
+tester@bigdatatools$ ./doxi
 Hey, doxecute your documents! 
 Doxi> 
 {% endcodeblock %}
