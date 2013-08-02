@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>index - Doxecute</title>
+  <title>Introduction - Doxecute</title>
   <meta name="author" content="Big Data Tools">
 
   
-  <meta name="description" content=" Index Aug 1st, 2013 Hello World! Aug 1st, 2013 Tweet Recent Posts ">
+  <meta name="description" content="Introduction Aug 1st, 2013 What? Doxecute is a document based database with basic SQL support such as INSERT, UPDATE, DELETE, and SELECT statement. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -38,7 +38,7 @@
   <header role="banner"><hgroup>
   <h1><a href="/">Doxecute</a></h1>
   
-    <h2>A document based database with Scala script support.</h2>
+    <h2>A document based database with basic SQL support.</h2>
   
 </hgroup>
 
@@ -56,8 +56,9 @@
 </form>
   
 <ul class="main-navigation">
-  <li><a href="/blog">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/">Introduction</a></li>
+  <li><a href="/tutorials">Tutorial</a></li>
+  <li><a href="/alpha-testing">Join Alpha Testing</a></li>
 </ul>
 
 </nav>
@@ -67,7 +68,7 @@
 <article role="article">
   
   <header>
-    <h1 class="entry-title">Index</h1>
+    <h1 class="entry-title">Introduction</h1>
     <p class="meta">
 
 
@@ -83,7 +84,31 @@
 <time datetime="2013-08-01T16:19:00-07:00" pubdate data-updated="true">Aug 1<span>st</span>, 2013</time></p>
   </header>
   
-  Hello World!
+  <h2>What?</h2>
+
+<p>Doxecute is a document based database with basic SQL support such as INSERT, UPDATE, DELETE, and SELECT statement. No more complicated JavaScript filters, expressions, callback functions.</p>
+
+<p>Because it is a document based database, you can insert or update your record using JSON format without even issuing CREATE TABLE statement. Instead of a table, you have a collection where you put all kinds of JSON you want to store.</p>
+
+<p>Doxecute support SQL from version 1.0. JavaScript will be supported from version 2.0.</p>
+
+<h2>Why?</h2>
+
+<p>Popular document based databases support JavaScript as a query language. However, we database guys are familiar with SQL. You can run ad-hoc queries simply by issuing a SQL statement. The SELECT statement supports WHERE, INNER JOIN, GROUP BY, and ORDER BY clause.</p>
+
+<p>Doxecute separates different kinds of JSON documents into different storage to reduce reading unnecessary data from disk while running your query on a specific kind of JSON document.</p>
+
+<h2>How?</h2>
+
+<p>Doxecute is carefully designed to support transaction support on a document based database. It automatically categorizes JSON documents based on the similarity between documents to store different kinds of JSON documents on different storage. It results in reduced amount of I/O for running a query on a specific kind of JSON documents.</p>
+
+<h2>Tutorial?</h2>
+
+<p>To check out the tutorial, click <a href="tutorials">here</a>.</p>
+
+<h2>When?</h2>
+
+<p>The first closed alpha testing starts on 15th Aug. To join the alpha testing, click <a href="alpha-testing">here</a>.</p>
 
   
     <footer>

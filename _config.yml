@@ -4,7 +4,7 @@
 
 url: http://http://doxecute.herokuapp.com/
 title: Doxecute 
-subtitle: A document based database with Scala script support. 
+subtitle: A document based database with basic SQL support. 
 author: Big Data Tools
 simple_search: http://google.com/search
 description:
