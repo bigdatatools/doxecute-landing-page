@@ -26,7 +26,7 @@ Doxecute is carefully designed to support transaction support on a document base
 
 Tutorial?
 ---------
-To check out the tutorial, click [here](tutorials).
+To check out the tutorial deploying Doxecute on Amazon EC2 node, manipulating JSON documents with SQL, click [here](tutorials).
   
 When?
 -----
