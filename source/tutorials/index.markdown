@@ -32,7 +32,7 @@ tester@bigdatatools$
 Run an interactive shell, Doxi
 ==============================
 Simply run Doxi, an interactive shell for communicating with Doxecute. 
-You don't need to specify the address of your EC2 node, as it is stored in config.yml in doxecute-1.0.
+You don't need to specify the address of your EC2 node, as it is stored in config.yml in the doxecute-1.0 path.
 {% codeblock %}
 tester@bigdatatools$ ./doxi
 Hey, doxecute your documents! 
