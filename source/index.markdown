@@ -10,7 +10,7 @@ What?
 -----
 Doxecute is a document based database with basic SQL support such as INSERT, UPDATE, DELETE, and SELECT statement. No more complicated JavaScript filters, expressions, callback functions.
  
-Because it is a document based database, you can insert or update your record using JSON format without even issuing CREATE TABLE statement. Instead of a table, you have a collection where you put all kinds of JSON you want to store. 
+It is schemaless. Because it is a document based database, you can insert or update your document using JSON format without even issuing CREATE TABLE statement. Instead of a table, you have a collection where you put all kinds of JSON you want to store. 
 
 Doxecute support SQL from version 1.0. JavaScript will be supported from version 2.0.
 
