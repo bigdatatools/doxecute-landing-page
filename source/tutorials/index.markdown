@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tutorials"
+title: "Tutorial"
 date: 2013-08-01 17:59
 comments: true
 sharing: true
